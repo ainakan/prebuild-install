@@ -1,6 +1,6 @@
 {
-  "name": "@frida/prebuild-install",
-  "version": "7.1.2-frida.1",
+  "name": "@ainakan/prebuild-install",
+  "version": "7.1.2-ainakan.1",
   "description": "A command line tool to easily install prebuilt binaries for multiple version of node/iojs on a specific platform",
   "scripts": {
     "test": "standard && hallmark && tape test/*-test.js",
@@ -19,7 +19,7 @@
     "napi"
   ],
   "dependencies": {
-    "@frida/node-abi": "^3.29.1-frida.0",
+    "@ainakan/node-abi": "^3.29.1-ainakan.0",
     "detect-libc": "^2.0.0",
     "expand-template": "^2.0.3",
     "github-from-package": "0.0.0",
@@ -43,7 +43,7 @@
   "bin": "./bin.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frida/prebuild-install.git"
+    "url": "https://github.com/ainakan/prebuild-install.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "contributors": [
